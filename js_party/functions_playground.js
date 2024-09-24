@@ -4,7 +4,6 @@
 
 console.log("functions_playground.js is running")
 
-
 // Let's start with the examples from the lesson.  
 
 // Lesson Example 1
@@ -14,15 +13,15 @@ function printGreeting(greeting) {
   console.log(greeting)
 }
 
-    // printGreeting('hi')  
+    printGreeting('hi')  
     
-    // printGreeting('sup')
+    printGreeting('sup')
     
-    // printGreeting('oh hello there darling!')
+    printGreeting('oh hello there darling!')
     
 // Now call the function again yourself, passing through whatever greeting you'd like.  Make sure you pass the greeting as a string (it must be in quotes).
 
-
+printGreeting("Wassup dude?")
 
 // Lesson Example 2
 // The function below is not printing anything to the console via console.log().  Instead, it is using the 'return' keyword to return a value each time the function is called.  To see the values being returned from the function invocations, we can console.log() the variables that are storing those values. 
@@ -38,11 +37,9 @@ var supGreeting = captureGreeting('sup')
 
 var fancyGreeting = captureGreeting('oh hello there darling!')
 
-// console.log('hiGreeting: ', hiGreeting)
-// console.log('supGreeting: ', supGreeting)
-// console.log('fancyGreeting: ', fancyGreeting)
-
-
+console.log('hiGreeting: ', hiGreeting)
+console.log('supGreeting: ', supGreeting)
+console.log('fancyGreeting: ', fancyGreeting)
 
 // Lesson Example 3
 // The function below is doing the exact same thing as the one above. It is just written in the ES6 arrow function syntax.  
@@ -54,20 +51,37 @@ var captureGreetingArrowSyntax = (greeting) => {
 
 var helloGreeting = captureGreetingArrowSyntax('hello')  
 
-// console.log("helloGreeting: ", helloGreeting)
-
+console.log("helloGreeting: ", helloGreeting)
 
 // NOTE FOR THE EXERCISES BELOW: "print" or "log" both mean to use a console.log()
 
 /*  -- SECTION A: PRACTICING FUNCTIONS STRAIGHT UP -- */
 //1A. Make a function called sayName that logs your first name
+function sayName(firstName) {
+  console.log("My first name is", firstName)
+}
 
+sayName("Michael")
 
 //2A. Edit the sayName function above to create a variable inside of the function that is equal to a greeting. Change the console log to include the greeting concatenated with your name!
+function sayName2(firstName) {
+  nameVar = (`My nickname is ${firstName}.`)
+  console.log(nameVar)
+}
 
+sayName2("Rockrat")
 
 //3A. Make a function called watchShow that console logs "I am watching". Then call the logFavoriteMovie function after the console log.
+function watchShow() {
+  console.log(`I ame watching `);
+  logFavoriteMovie();
+}
 
+function logFavoriteMovie() {
+  console.log("Best of the Best")
+}
+
+watchShow()
 
 /*  --  SECTION B: FUNCTIONS WITH PARAMETERS. -- */
 //1B. Create a function takes in two numbers and logs the numbers added together. Invoke the function two times with different numbers.
