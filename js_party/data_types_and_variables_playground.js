@@ -127,9 +127,20 @@ console.log("Num1 + num2 =", num3)
 
 // PART 7: More
 // 7a. Declare a variable and assign it a value of an empty array.  Then print it to the console.
+var emptyArray = []
+console.log("My empty array:", emptyArray)
 
 // 7b. Declare a variable and assign it a value of an empty object.  Then print it to the console.
+var emptyObject = {}
+console.log("My empty object:", emptyObject)
 
 // 7c. Declare a variable and assign it a value of an array of 3 of your friends' names.  Then print it to the console.
+var friendsArray = ["Bunny", "Kitten", "Robert"]
+console.log("My friends array:", friendsArray)
 
 // 7d. Declare a variable and assign it a value of a car object with 2 key-value pairs: make and model.  Then print it to the console.
+var carObject = {
+  make: "Nissan",
+  model: "Rogue"
+}
+console.log("My car object:", carObject)
