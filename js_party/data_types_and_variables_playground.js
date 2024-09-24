@@ -12,22 +12,40 @@ console.log("data_types_and_variables_playground.js is running")
       console.log('helloWorld: ', helloWorld)
 
 // 1a. Declare a variable and assign it a value of a string of your middle name. Then print it to the console.
+var middleName = "Thomas"
+console.log("My middle name is", middleName)
 
 // 1b. Declare a variable and assign it a value of the number of pets you have. Then print it to the console.
+var numPets = 3
+console.log("I have " + numPets + " pets.")
 
 // 1c. Declare a variable and assign it a value of null.  Then print it to the console.
+var nullVar = null
+console.log("Null varaiable: ", nullVar)
 
 // 1d. Declare a variable and assign it a value of whether you have ever gone bunjee jumping (true/false).  Then print it to the console. 
+var bunjeeJumping = true
+console.log("I have been bunjee jumping:", bunjeeJumping)
 
 // 1e. Declare a variable and assign it a value of an empty string.  Then print it to the console.
+var emptyString = ""
+console.log("An empty string: ", emptyString)
 
 // 1f. Declare a variable and assign it a value of the expression 2 + 5.  Then print it to the console.
+var addNums = 2 + 5
+console.log("2 +5 =", addNums)
 
 // 1g. Declare a variable and assign it a value of the expression (100 - 20) / 2.  Then print it to the console.
+var mathVar = (100 - 20) / 2
+console.log("(100-20)/2 = ", mathVar)
 
 // 1h. Declare a variable "potato" but do not assign it a value yet. Did you know you can do this? Print it to the console. What do you get?
+var potatoVar
+console.log("Unassigned variable = ", potatoVar)
 
 // 1i. Now, on a new line (not the line where you declared it) assign a string of your fav potato dish to your already-declared "potato" variable.  Print it to the console.
+potatoVar = "French Fries"
+console.log("My favorite potato dish is", potatoVar)
 
 // 1j. Look at the console log below.  Notice that gobblyGoop has not been declared as a variable anywhere yet. Think about what will show in the console when you uncomment and run that line.  Try it! 
       // console.log(gobblyGoop)
@@ -40,28 +58,25 @@ console.log("data_types_and_variables_playground.js is running")
 // Rename each of the variables below to be more clear and specific about the value(s) they hold.
 
 // 2a.
-// var thing = 'Jennifer'
+var firstName = 'Jennifer'
 
 // 2b.
-// var students = 15
+var numStudents = 15
 
 // 2c. 
-// var candyBar = ['snickers', 'twix', 'milky way', '3 musketeers']
+var candyBars = ['snickers', 'twix', 'milky way', '3 musketeers']
 
 // 2d.
-// var object = {
-//   name: 'bicycle',
-//   numWheels: 2,
-//   goesFast: true,
-//   isBoring: false,
-//   parts: ['pedals', 'frame', 'handlebars', 'wheels', 'brakes']
-// }
+var bicycleInfo = {
+  name: 'bicycle',
+  numWheels: 2,
+  goesFast: true,
+  isBoring: false,
+  parts: ['pedals', 'frame', 'handlebars', 'wheels', 'brakes']
+}
 
 // 2d. What's a better name than 'login' for a variable used to track if a user is logged in or not at any given time?
-// var login = true  
-
-
-
+var loggedIn = true  
 
 // PART 3: Reassigning variable values
 // When reassigning variables, you do not use the keyword "var"
