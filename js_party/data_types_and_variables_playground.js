@@ -82,44 +82,48 @@ var loggedIn = true
 // When reassigning variables, you do not use the keyword "var"
 
 // 3a. Declare a variable "userName" that holds a string of your first name.  Print it to the console.
+var userName = "Rockrat"
+console.log("Your username is", userName)
 
 // 3b. On a new line, reassign the value of your "userName" variable to be a friend's name.  Print it to the console again.  Notice how the 2 console logs give you a different value based on the variable's value at that moment
+userName = "PFCBG"
+console.log("Your username is", userName)
 
 // 3c. 
-// var num1 = 3
-// console.log('num1: ', num1)
+var num1 = 3
+console.log('num1: ', num1)
 // Uncomment the variable "num1" Print it.
 
-// var num2 = num1 + 2
-// console.log('num2: ', num2)
+var num2 = num1 + 2
+console.log('num2: ', num2)
 // Uncomment the variable "num2". Print it.
 
-// console.log('num1 again: ', num1)
+console.log('num1 again: ', num1)
 // Uncomment the console log above to print num1 again.  
     // Notice that the value hasn't changed even though we added 2 to it when declaring num2. Why?
 
 // Declare another variable "num3" and assign it a value of num1 * num2.  Print it.
+num3 = num1 + num2
+console.log("Num1 + num2 =", num3)
 
 // 3d. 
 // Declare a variable "myNumber" and assign it a value of 0.  Print it.
 // On a new line, reassign the myNumber variable to a value of myNumber + 2.  Print it again.
   // Notice how the value does change this time.  Why?
+  myNumber = 0
+  console.log("myNumber =", myNumber)
+  myNumber = myNumber + 2
+  console.log("myNumber =", myNumber)
 
 // 3e. Look at the declaration and reassignments below.  Guess what will log each time and why.  Then uncomment them and run it.
-    // var counter = 0;
-    // console.log(counter)
-    // counter = counter + 1
-    // console.log(counter)
-    // counter += 1
-    // console.log(counter)
-    // counter ++
-    // console.log(counter)
-
-
-
-
-
-
+    var counter = 0;
+    console.log(counter)
+    counter = counter + 1
+    console.log(counter)
+    counter += 1
+    console.log(counter)
+    counter ++
+    console.log(counter)
 
 // PART 7: More
 // 7a. Declare a variable and assign it a value of an empty array.  Then print it to the console.
