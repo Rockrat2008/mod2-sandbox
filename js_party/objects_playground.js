@@ -169,11 +169,11 @@ var currentProperty = 'wheels';
 
 // 5d. First, predict what each console.log below is going to print to the console. Then, uncomment each console.log and check your predictions. Did anything surprise you? 
 
-// console.log('1', vehicle['currentProperty']);
+console.log('1', vehicle['currentProperty']);
 
-// console.log('2', vehicle[currentProperty]);
+console.log('2', vehicle[currentProperty]);
 
-// console.log('3', vehicle.currentProperty);
+console.log('3', vehicle.currentProperty);
 
 // 5e. When might we prefer to use dot notation? When might we need to use bracket notation?
 
@@ -203,9 +203,9 @@ function walk(dog) {
 
 // 6a. First, predict what each console.log below is going to print to the console. Then, uncomment each console.log and check your predictions. Did anything surprise you? 
 
-// console.log(walk(luna))
+console.log(walk(luna))
 
-// console.log(walk(cap))
+console.log(walk(cap))
 
 var ironman = { name: 'Tony Stark', secretIdentity: false };
 
@@ -216,14 +216,18 @@ var spiderman = { name: 'Peter Parker', secretIdentity: true };
 // 6b. Complete the function below so that the following strings are logged for each invokation. 
 
 function greetAvenger(hero) {
-  // code here
+  if (hero.secretIdentity == false) {
+    return `Hello ${hero.name}`;
+  } else {
+    return `I don't know your name`;
+  }
 };
 
-greetAvenger(ironman);
+console.log(greetAvenger(ironman));
 // should log --> 'Hello, Tony Stark.'
 
-greetAvenger(captainAmerica);
+console.log(greetAvenger(captainAmerica));
 // should log --> 'Hello, Steve Rogers.'
 
-greetAvenger(spiderman);
+console.log(greetAvenger(spiderman));
 // should log --> 'I don't know who you are!'
