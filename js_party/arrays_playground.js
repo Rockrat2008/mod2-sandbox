@@ -105,17 +105,17 @@ var instructors = [
 
 // 6a. First, predict what each console.log below is going to print to the console. Then, uncomment each console.log and check your predictions. Did anything surprise you? 
 
-// console.log(instructors[0]);
+console.log(instructors[0]);
 
-// console.log(instructors[1].name);
+console.log(instructors[1].name);
 
-// console.log(instructors[2].modsTaught[0]);
+console.log(instructors[2].modsTaught[0]);
 
 // 6b. Hannah just switched to the backend program!
 
 instructors[1].program = 'BE';
 
-// console.log(instructors[1]);
+console.log(instructors[1]);
 
 var pets = [
   { 
@@ -148,22 +148,21 @@ var pets = [
 
 pets[1].favoriteTreats[0].name = 'chicken';
 
-// console.log(pets[1]);
+console.log(pets[1]);
 
 // 6c. Print all of the pet objects to the console
-
+console.log(pets);
 // 6d. Print the string of Cap to the console
-
+console.log(pets[0].name)
 // 6e. Print Luna's age to the console
-
+console.log(pets[2].age)
 // 6f. Print all of Cap's favorite treats to the console (the array)
-
+console.log(pets[0].favoriteTreats)
 // 6g. Print only the string of chicken to the console
-
-
+console.log(pets[1].favoriteTreats[0].name)
 //NOTES: 
-// var array = ['dog', 8, false] //<--- GROSS
-// console.log(array)
+var array = ['dog', 8, false] //<--- GROSS
+console.log(array)
 
 // Anytime we want to bundle data together, we have two choices:
 // - array: a list of elements that are the same date type and decribe the same type of time
