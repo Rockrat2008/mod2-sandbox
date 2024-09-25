@@ -80,6 +80,9 @@ var pets = [
 ];
 
 // 6a. Using a for loop, print the following to the console (in this order!):
+for (var i = 0; i < pets.length; i++) {
+  console.log(pets[i].name);
+}
 // Tilly
 // Sodie
 // Pumpernickel
@@ -90,5 +93,7 @@ var pets = [
 // Leta's cat, Tilly, loves cheese.
 // Amy's dog, Sodie, loves milkbones.
 // Eric's cat, Pumpernickel, loves kibble.
-
+for (var i = 0; i < pets.length; i++) {
+  console.log(`${pets[i].human}'s ${pets[i].type}, ${pets[i].name}, loves ${pets[i].favoriteTreat}.`)
+}
 
