@@ -83,16 +83,17 @@ var numbers = [[1, 2, 3], [4, 5], [6, [7, 8, 9], 10]];
 
 // 5z. First, predict what each console.log below is going to print to the console. Then, uncomment each console.log and check your predictions. Did anything surprise you? 
 
-// console.log(numbers[0]);
+console.log(numbers[0]);
 
-// console.log(numbers[2][1][2]);
+console.log(numbers[2][1][2]);
 // ^^ Woah. Let's sit with this one for a minute. Break it down:
-    // console.log(numbers[2]);
-    // console.log(numbers[2][1]);
-    // console.log(numbers[2][1][2]);
+    console.log(numbers[2]);
+    console.log(numbers[2][1]);
+    console.log(numbers[2][1][2]);
 
 // 5b. How would you access the number 10 in the numbers array?
 
+console.log(numbers[2][2]);
 
 // PART 6: More nested data!
 var instructors = [
