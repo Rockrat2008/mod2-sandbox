@@ -55,10 +55,9 @@ var modOneLessonsV1 = [
 
 var modOneLessonsV2 = ['JS: Data Types, Variables, Conditionals', 'JS: Intro to Functions', 'JS: Intro to Unit Testing', 'Dev Skills: Merge Conflicts', 'HTML: Intro to HTML Elements', 'CSS: Flexbox'];
 
-// 3a. Do you prefer the formatting of modOneLessonsV1 or V2 better? Why?
+// 3a. Do you prefer the formatting of modOneLessonsV1 or V2 better? Why?  V1 - Seems more readable
 
-// 3b. When might you choose to put a line break between each element of an array?
-
+// 3b. When might you choose to put a line break between each element of an array?  To make list items more readable
 
 // PART 4: Reassigning array values
 var favoriteCandy = ['skittles', 'm&ms', 'snickers', 'sour patch kids'];
@@ -66,14 +65,14 @@ var favoriteCandy = ['skittles', 'm&ms', 'snickers', 'sour patch kids'];
 favoriteCandy[1] = 'swedish fish';
 
 // 4a. What do you think the console log below will show?
-// console.log(favoriteCandy)
+console.log(favoriteCandy)
 
 // 4b. Reassign snickers to be your favorite candy. Then print the array to the console to check that it worked.
 
 favoriteCandy[10] = 'almond joy';
 
 // 4c. What do you think the console log below will show?
-// console.log(favoriteCandy)
+console.log(favoriteCandy)
 
 
 // PART 5: Can you have an array of arrays?
