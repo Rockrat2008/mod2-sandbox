@@ -10,29 +10,38 @@ var people = ['Brad', 'Dante', 'Amy', 'Louis', 'Stephanie'];
 
 // 1a. First, predict what each console.log below is going to print to the console. Then, uncomment each console.log and check your predictions. Did anything surprise you? 
 
-// console.log(people);
+console.log(people);
 
-// console.log(people[3]);
+console.log(people[3]);
 
-// console.log(people[10]);
+console.log(people[10]);
 
 var lotteryNumbers = [12, 33, 51, 62, 74, 88];
 
 // 1b. Log the entire lotteryNumbers array to the console
 
+console.log(lotteryNumbers)
+
 // 1c. Log the first number to the console
+
+console.log(lotteryNumbers[0])
 
 // 1d. Use interpolation or concatenation (google this!) to print the following string: 
 // "The second number is...33!"
-
+console.log(`The second number is...${lotteryNumbers[1]}!`)
 
 // PART 2: What type of information should arrays hold?
 
-var dog = ['Cappy', 'three years old', 'loves treats', 'is really cute'];
-// 2a. This array is a bad example of an array. Why?
+var dog = ['Cappy', '3 years old', 'loves Treats', 'is really cute']
+// 2a. This array is a bad example of an array. Why?  -  It isn't a logical collection of information.
 
 // 2b. Create an object that represents that data in a more organized way. Try to have at least one string, number, and boolean value in your object's key:value pairs
-
+var dog = {
+  name:'Cappy',
+  age: 3,
+  lovesTreats: true,
+  looks: 'is really cute'
+};
 
 // PART 3: Does formatting matter?
 var modOneLessonsV1 = [
