@@ -34,6 +34,10 @@ console.log('policesketchdescription - visibleTattoos: ', policeSketchDescriptio
 console.log('First favorite food: ', favoriteFoods[0])
 console.log('Last Favorite food: ', favoriteFoods[3])
 
+console.log('policesketchdescription - eyes - bracket notation: ', policeSketchDescription["eyes"])
+console.log('policesketchdescription - visibleTattoos - bracket notation: ', policeSketchDescription["visibleTattoos"])
+
+
 let quantity = 3;
 let mythicalCreature = " unicorns";
 let creatureCount = quantity + mythicalCreature
