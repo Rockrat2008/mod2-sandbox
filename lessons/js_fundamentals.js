@@ -59,10 +59,6 @@ let anotherCreatureCount = `<p>I have ${quantity} very fancy ${mythicalCreature}
 console.log(anotherCreatureCount)
 
 
-
-
-
-
 /*
 JS Functions
 */
@@ -95,6 +91,15 @@ let mathFtn = (num1, num2, num3) => {
 }
 
 mathFtn(2, 4, 6)
+
+function multiplyNumbers(num1, num2) {
+  let total = `${num1} * ${num2} = ${num1 * num2}`
+  return total
+}
+
+console.log(multiplyNumbers(5, 111))
+
+
 /*
 JS Conditionals
 */ 
@@ -123,11 +128,6 @@ function evaluateSleep(hoursOfSleep) {
 
 // evaluateSleep(8)
 // evaluateSleep(4)
-
-
-
-
-
 
 
 /*
