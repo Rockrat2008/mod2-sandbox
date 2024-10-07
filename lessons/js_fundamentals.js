@@ -99,6 +99,12 @@ function multiplyNumbers(num1, num2) {
 
 console.log(multiplyNumbers(5, 111))
 
+function greetUser(name) {
+  return `Hello ${name}.  Welcome to mod2!`
+}
+
+console.log(greetUser("Michael"))
+
 
 /*
 JS Conditionals
@@ -114,9 +120,9 @@ function identifyCookie(cookie) {
   }
 }
 
-// identifyCookie("chocolate chip")
-// identifyCookie("oatmeal raisin")
-// identifyCookie("sugar")
+identifyCookie("chocolate chip")
+identifyCookie("oatmeal raisin")
+identifyCookie("sugar")
 
 function evaluateSleep(hoursOfSleep) {  
   if (hoursOfSleep < 6) {
@@ -128,6 +134,7 @@ function evaluateSleep(hoursOfSleep) {
 
 // evaluateSleep(8)
 // evaluateSleep(4)
+
 
 
 /*
