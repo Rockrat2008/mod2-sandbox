@@ -27,20 +27,20 @@ let favoriteFoods = ['pizza', 'blueberries', 'ice cream', 'sushi']
 let partnerName = null;
 let jobTitle;
 
-console.log(jobTitle)
+console.log('job title: ', jobTitle)
 
-console.log(policeSketchDescription.eyes)
-console.log(policeSketchDescription.visibleTattoos)
-console.log(favoriteFoods[0])
-console.log(favoriteFoods[3])
+console.log('policesketchdescription - eyes: ', policeSketchDescription.eyes)
+console.log('policesketchdescription - visibleTattoos: ', policeSketchDescription.visibleTattoos)
+console.log('First favorite food: ', favoriteFoods[0])
+console.log('Last Favorite food: ', favoriteFoods[3])
 
 let quantity = 3;
 let mythicalCreature = " unicorns";
 let creatureCount = quantity + mythicalCreature
 
-console.log(quantity)
-console.log(mythicalCreature)
-console.log(creatureCount)
+console.log('quantity:', quantity)
+console.log('Mythical Creature:', mythicalCreature)
+console.log('Creature Count: ', creatureCount)
 
 /*
 JS Concatenation & Interpolation
