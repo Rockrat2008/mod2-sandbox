@@ -136,7 +136,6 @@ function evaluateSleep(hoursOfSleep) {
 // evaluateSleep(4)
 
 
-
 /*
 JS For Loops
 */ 
@@ -162,3 +161,14 @@ function printTotalPoints() {
 }
 
 console.log(printTotalPoints());
+
+
+let kids = ['chris', 'heather', 'erica', 'rachel', 'becca'];
+
+function shoutAtChildren() {
+  for(let i = 0; i < kids.length; i++) {
+    console.log(`Hey ${kids[i].toUpperCase()}!`)
+  }
+}
+
+shoutAtChildren()
